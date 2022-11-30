@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+.find {
+  background-color: #f8f8f8;
+}
+.find .content {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.find .content .store h4 {
+  margin-bottom: 2rem;
+}
+.find .content .store p {
+  margin-bottom: 2rem;
+}
+.find .content .store button {
+  width: 80%;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.find .content .email .title {
+  margin-bottom: 1.5rem;
+}
+.find .content .email .desc {
+  margin-bottom: 1rem;
+}
+.find .content .email .form-group {
+  position: relative;
+  display: flex;
+}
+.find .content .email .form-group .info {
+  position: absolute;
+}
+.find .content .email .form-group button {
+  padding: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+footer {
+  background-color: #f8f8f8;
+}
+footer .content {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .content .brand {
+  margin-right: 2rem;
+}
+footer .content .brand img {
+  width: 100px;
+  height: 100px;
+}
+footer .content .box {
+  font-size: 1.2rem;
+}
+footer .content .box .name {
+  margin-bottom: 1rem;
+}
+footer .content .box .links ul {
+  display: flex;
+}
+footer .content .box .links ul li {
+  margin-right: 1rem;
+}/*# sourceMappingURL=main.css.map */

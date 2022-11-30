@@ -1,0 +1,92 @@
+*{margin:0;padding:0;box-sizing: border-box;text-decoration: none;list-style: none;}
+a {color : #000;}
+
+$container-width : 1300px;
+
+
+.find {
+    background-color: #f8f8f8;
+    .content{
+        max-width: $container-width;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0 ;
+        .store{
+            h4{
+                margin-bottom: 2rem;
+            }
+            p {
+                margin-bottom: 2rem;
+            }
+            button{
+                width: 80%;
+                background-color: #000;
+                color : #fff;
+                padding: 1.5rem 2.5rem;
+                border-radius: 25px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+        .follow{
+
+        }
+        .email{
+            .title {
+                margin-bottom: 1.5rem;
+            }
+            .desc{
+                margin-bottom: 1rem;
+            }
+            .form-group{
+                position: relative;
+                display: flex;
+                .info{
+                    position: absolute;
+
+                }
+                button{
+                    padding: 2rem;
+                    color: #fff;
+                    background-color: #000;
+                }
+                input {
+                    
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    background-color: #f8f8f8;
+    .content{
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .brand{
+            margin-right: 2rem;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .box {
+            font-size: 1.2rem;
+            .name {
+                margin-bottom: 1rem;
+            }
+            .links {
+                ul { display: flex;
+                li{
+                    margin-right: 1rem;
+                }
+                }
+            }
+        }
+    }
+}
